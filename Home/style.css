@@ -27,6 +27,7 @@ body {
 
 .img-s1 {
     width: 100%;
+    box-shadow: 0 4px 20px #090909;
 }
 
 .title {
@@ -54,6 +55,22 @@ body {
     width: 90%;
     margin: 0 auto;
     margin-bottom: 40px;
+}
+
+.s2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap:30px;
+    min-height: 80vh;
+    height: auto;
+}
+
+.card{
+    background-color: var(--yellow);
+    border-radius: 20px;
+    box-shadow: 0 4px 20px #090909;
 }
 
 @media (width >= 768px) {
